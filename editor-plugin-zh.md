@@ -30,9 +30,9 @@ Plugin
 
 * 前端
 
-  * [Nuclide](http://nuclide.io) - 用于编写 React Native，代码提示各种很厉害的样子。![][star4 Icon] [![Open-Source Software][OSS Icon]](https://github.com/facebook/nuclide)
+  * [Nuclide](http://nuclide.io) - 用于编写 React Native，代码提示各种很厉害的样子。[![Open-Source Software][OSS Icon]](https://github.com/facebook/nuclide)
   * [TypeScript](https://github.com/TypeStrong/atom-typescript) - 支持TypeScript编译。
-  * [Emmet](https://atom.io/packages/emmet) - 快速编写HTML。![star 4][star4 Icon]
+  * [Emmet](https://atom.io/packages/emmet) - 快速编写HTML。
   * [tag](https://atom.io/packages/tag) - Sublime 风格的 HTML 标签自动闭合。
   * [color-picker](https://atom.io/packages/color-picker) - CSS颜色取色器。
   * [autoprefixer](https://atom.io/packages/autoprefixer) - 自动补全CSS前缀。
@@ -49,8 +49,8 @@ Plugin
 
 ## Sublime Text Plugin
 
-* [PlainTasks](https://packagecontrol.io/packages/PlainTasks) - 一个自以为是的待办事项列表插件。![star 5][star5 Icon]
-* [Emmet](https://github.com/sergeche/emmet-sublime) - zen coding的升级版，对于前端来说，可是必备插件。![star 5][star5 Icon]
+* [PlainTasks](https://packagecontrol.io/packages/PlainTasks) - 一个自以为是的待办事项列表插件。
+* [Emmet](https://github.com/sergeche/emmet-sublime) - zen coding的升级版，对于前端来说，可是必备插件。
 * [sublimelint](https://github.com/lunixbochs/sublimelint) - 用于代码的校验，支持 HTML、CSS、JS、PHP、Java、C++ 等16种语言。
 * [JsFormat](https://packagecontrol.io/packages/JsFormat) - 用于JavaScript格式化。
 * [jQuery](https://packagecontrol.io/packages/jQuery) - jQuery语法提示。
@@ -63,7 +63,7 @@ Plugin
 * [WakaTime](https://packagecontrol.io/packages/WakaTime) - 用于记录编程时间。
 * [Seti_UI](https://packagecontrol.io/packages/Seti_UI) - 好看的主题，包括文件icon。
 * [OmniMarkupPreviewer](https://packagecontrol.io/packages/OmniMarkupPreviewer) - 将MD文件渲染成网页，可以在浏览器中查看。
-* [GitGutter](https://packagecontrol.io/packages/GitGutter) - 显示比对Git的状态。![star 5][star5 Icon]
+* [GitGutter](https://packagecontrol.io/packages/GitGutter) - 显示比对Git的状态。
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter) - 高亮显示标签括号。
 * [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements) - 扩展文件编辑右键菜单。
 * [Markdown Extended](https://packagecontrol.io/packages/Markdown%20Extended) - Markdown语法高亮。
@@ -81,11 +81,44 @@ Plugin
 
 ## VSCode Plugin
 
-* [react-beautify](https://github.com/taichi/react-beautify) - 这个扩展封保存自动美化 JS, JSX, typescript, TSX 文件。
-* [Reactjs code snippets](https://github.com/xabikos/vscode-react) - ES6语法高亮，Reactjs开发的代码提示。
-* [Sublime Text Keymap](https://github.com/Microsoft/vscode-sublime-keybindings) - 在VScode中添加Sublime Text 热门快捷键。
-* [Import Cost](https://github.com/wix/import-cost) - 在编辑器中显示import/require包大小。
-* [Git Lens](https://github.com/wix/import-cost) - 增强了内置的Visual Studio代码Git功能。
+* 通用
+
+  * [vscode-icons](https://github.com/vscode-icons/vscode-icons) -  Code设置vscode图标
+  * [Bracket Pair Colorizer](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - 着色匹配括号。
+  * [Indent-Rainbow](https://github.com/oderwat/vscode-indent-rainbow) - 对缩进显示彩虹色作色，使得更加易读
+  * [Trailing Spaces](https://github.com/shardulm94/vscode-trailingspaces) - 检测多余空格并高亮
+  * [TODO Highlight](https://github.com/wayou/vscode-todo-highlight) - TODO备忘插件
+  * [Code Spell Checker](https://github.com/Jason-Rev/vscode-spell-checker) - js或ts代码拼写检查
+  * [Document This](https://github.com/joelday/vscode-docthis) - doc注视自动生成
+  * [Sublime Text Keymap](https://github.com/Microsoft/vscode-sublime-keybindings) - 在VScode中添加Sublime Text 热门快捷键。
+  * [Git Lens](https://github.com/eamodio/vscode-gitlens) - 增强了内置的Visual Studio代码Git功能。
+  * [View In Browser](https://github.com/hellopao/view-in-browser) - 在vscode预览浏览器
+  * [SVG Viewer](https://github.com/cssho/vscode-svgviewer) - 在vscode内查看svg图标
+  * [Auto-Open Markdown Preview](https://github.com/hnw/vscode-auto-open-markdown-preview) - 实时预览markdown
+  * [Markdown PDF](https://github.com/yzane/vscode-markdown-pdf) - 将markdown文档转为pdf、html、png或jpeg
+  * [Debugger for Chrome](https://github.com/Microsoft/vscode-chrome-debug) - vscode中调试在chrome的js代码
+  * [ESlint](https://github.com/Microsoft/vscode-eslint) - eslint在vscode工具，帮助校验es语法等
+  * [TSLint](https://github.com/Microsoft/vscode-eslint) - tslint在vscode工具，帮助校验ts语法等
+
+* HTML
+  * [Auto Close Tag](https://github.com/formulahendry/vscode-auto-close-tag) - 自动闭合标签
+  * [Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag) - 自动重命名标签
+  * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets) -  html代码片段
+  * [IntelliSense for CSS class names in HTML](https://github.com/Zignd/HTML-CSS-Class-Completion) - 基于当前项目css文件，在html中智能提示CSS类名
+  * [HTML CSS Support](https://github.com/ecmel/vscode-html-css) - 在html中智能提示css样式
+
+* JS
+  * [npm Intellisense](https://github.com/ChristianKohler/NpmIntellisense) - 自动提示npm包的导入
+  * [Path Intellisense](https://github.com/ChristianKohler/PathIntellisense) - 自动提示文件路径
+  * [Auto Import](https://github.com/soates/Auto-Import) - 自动识别解析导入
+  * [Code Runner](https://github.com/formulahendry/vscode-code-runner) - 支持执行多语言测试代码
+  * [Import Cost](https://github.com/wix/import-cost) - 在编辑器中显示import/require包大小。
+  * [Regex Previewer](https://github.com/chrmarti/vscode-regex) - 测试写的正则表达式
+
+* React/Vue
+  * [react-beautify](https://github.com/taichi/react-beautify) - 这个扩展封保存自动美化 JS, JSX, typescript, TSX 文件。
+  * [Reactjs code snippets](https://github.com/xabikos/vscode-react) - ES6语法高亮，Reactjs开发的代码提示。
+  * [Vetur](https://github.com/vuejs/vetur) - Vue-VSCode工具，支持高亮代码，自动补全，代码片段等
 
 ## Vim Plugin
 
@@ -93,7 +126,7 @@ Plugin
 * [vim-plug](https://github.com/junegunn/vim-plug) - 一个简约的vim插件管理器。[![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/junegunn/vim-plug)
 * [WebVim](https://github.com/krampstudio/webvim) - 倾向于开发JavaScript和Web的vim。
 * [vim-web](https://github.com/jaywcjlove/vim-web) - 一个前端开发工程师的vim。[![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/jaywcjlove/vim-web)
-* [Neovim](https://neovim.io/) -  提高Vim可扩张灵活性。[![Open-Source Software][OSS Icon]](https://github.com/neovim/neovim) ![Freeware][Freeware Icon] ![hot][hot Icon]
+* [Neovim](https://neovim.io/) -  提高Vim可扩张灵活性。[![Open-Source Software][OSS Icon]](https://github.com/neovim/neovim) ![Freeware][Freeware Icon]
 * [Spacevim](https://github.com/ctjhoa/spacevim) -  模仿Spacemacs的使用方式。
 * [Spf13](http://vim.spf13.com/) - 一套全方位的配置项目。
 * [vimplus](https://github.com/chxuan/vimplus) - 一套完全自动化打造Vim开发环境的项目。[![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/chxuan/vimplus)
@@ -102,14 +135,4 @@ Plugin
 
 [OSS Icon]: https://jaywcjlove.github.io/sb/ico/min-oss.svg
 [Freeware Icon]: https://jaywcjlove.github.io/sb/ico/min-free.svg
-[hot Icon]: https://jaywcjlove.github.io/sb/ico/min-hot.svg
-[tuijian Icon]: https://jaywcjlove.github.io/sb/ico/min-tuijian.svg
-[bibei Icon]: https://jaywcjlove.github.io/sb/ico/min-bibei.svg
-[red Icon]: https://jaywcjlove.github.io/sb/star/red.svg
 [app-store Icon]: https://jaywcjlove.github.io/sb/ico/min-app-store.svg
-[star0 Icon]: https://jaywcjlove.github.io/sb/star/red0.svg
-[star1 Icon]: https://jaywcjlove.github.io/sb/star/red1.svg
-[star2 Icon]: https://jaywcjlove.github.io/sb/star/red2.svg
-[star3 Icon]: https://jaywcjlove.github.io/sb/star/red3.svg
-[star4 Icon]: https://jaywcjlove.github.io/sb/star/red4.svg
-[star5 Icon]: https://jaywcjlove.github.io/sb/star/red5.svg
